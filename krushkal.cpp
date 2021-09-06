@@ -3,6 +3,7 @@ using namespace std;
 const int N = 1e5 + 3;
 vector<int>parent(N);
 vector<int>s(N);
+
 void make_set(int v)
 {
     parent[v] = v;
